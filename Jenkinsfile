@@ -6,7 +6,7 @@ pipeline {
 
             steps {
                 
-                    sh 'mavewebappdemo/pom.xml clean install'
+                    sh 'mvn -f mavewebappdemo/pom.xml clean install'
                 
             }
         }
@@ -15,7 +15,7 @@ pipeline {
 
             steps {
                 
-                    sh 'mavewebappdemo/pom.xml  test'
+                    sh 'mvn -f mavewebappdemo/pom.xml  test'
                 
             }
         }
