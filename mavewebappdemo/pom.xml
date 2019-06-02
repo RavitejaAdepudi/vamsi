@@ -8,11 +8,12 @@
 	<name>mavewebappdemo Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
-		<dependency>
-    <groupId>oracle</groupId>
-    <artifactId>ojdbc6</artifactId>
-    <version>11.2.0.3</version>
+	 <dependency>
+    <groupId>org.mongodb</groupId>
+    <artifactId>mongo-java-driver</artifactId>
+    <version>3.9.1</version>
 </dependency>
+		
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
