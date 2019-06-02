@@ -20,6 +20,14 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.1.6</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.scalatest/scalatest -->
+<dependency>
+    <groupId>org.scalatest</groupId>
+    <artifactId>scalatest_2.11</artifactId>
+    <version>2.2.1-M1</version>
+    <scope>test</scope>
+</dependency>
+
 		<!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
 		<dependency>
 			<groupId>org.postgresql</groupId>
