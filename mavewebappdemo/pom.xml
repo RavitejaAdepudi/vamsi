@@ -8,6 +8,13 @@
 	<name>mavewebappdemo Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.mongodb/mongo-java-driver -->
+<dependency>
+    <groupId>org.mongodb</groupId>
+    <artifactId>mongo-java-driver</artifactId>
+    <version>3.9.1</version>
+</dependency>
+
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
