@@ -12,7 +12,7 @@ pipeline
                 sh 'mvn -f mavewebappdemo/pom.xml install'
             }
         }
-        stage ('deploy')
+        stage ('deploy and once more ')
         
         {
             steps
