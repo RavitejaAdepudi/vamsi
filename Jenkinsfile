@@ -4,7 +4,7 @@ pipeline
     
     stages
     {
-        stage ('compile')
+        stage ('compile sdsdsz')
         
         {
             steps
